@@ -72,7 +72,45 @@ Here's the base structure (the "skeleton") of every webpage I create:
     <!-- Visible page content goes here -->
   </body>
 </html>
+``` 
+# 🧾 Lesson 3: Start Coding with HTML – Creating Paragraphs
 
+In this lesson, I created my **first functional web page** that displays paragraph text. This marks the beginning of giving actual content to my pages using HTML tags.
 
+---
 
+## 🧠 What I Learned
+
+### 📝 Paragraphs in HTML
+
+- Paragraphs are defined using the `<p>` tag.
+- Each paragraph starts with `<p>` and ends with `</p>`.
+- Paragraphs must always be placed **inside the `<body>` section** of the HTML document.
+
+---
+
+## 💻 The Code I Wrote
+
+Here’s the HTML code used in this lesson:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Metadata and page title go here -->
+  </head>
+  <body>
+    <p>Hello from week 1!</p>
+    <p>This is my first HTML file created inside the Week 1 journal folder using Gitpod</p>
+  </body>
+</html>
+```
+
+When opened in the browser, this displays two lines of text:
+
+```
+Hello from Week 1!
+This is my first HTML file created inside the Week 1 journal folder using Gitpod.
+```
+---
 
