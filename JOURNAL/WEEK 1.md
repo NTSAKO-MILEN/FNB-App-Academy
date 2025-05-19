@@ -160,21 +160,21 @@ When I opened this in the browser, I could visually see how each heading became 
 
 ✅ I saved the file correctly as .html and refreshed the browser to see changes live.
 
-#### ✅ Completion Checklist
+#### Completion Checklist ✅
 
- Created a new HTML file or edited index.html
+- ✅ Created a new HTML file or edited `index.html`
+- ✅ Added six heading tags from `<h1>` to `<h6>`
+- ✅ Saved the file with the correct `.html` extension
+- ✅ Viewed the result in a browser
 
- Added six heading tags from <h1> to <h6>
+💬 **Final Thoughts**
 
- Saved the file with the correct .html extension
-
- Viewed the result in a browser
-
- 💬 Final Thoughts
 Seeing how heading tags automatically style text based on their importance showed me that HTML is doing more than just displaying words — it’s organizing and communicating structure to browsers, readers, and search engines.
 
 This lesson taught me that even the smallest tag has a big role to play in building quality web pages.
 
-“Structure isn’t just visual — it’s how a web page speaks to the world.” — Ntsako-M Mabunda
+> “Structure isn’t just visual — it’s how a web page speaks to the world.” — Ntsako-M Mabunda
 
- Reflected on the importance of proper document structure
+✅ Reflected on the importance of proper document structure
+
+
