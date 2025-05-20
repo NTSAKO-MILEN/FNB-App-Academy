@@ -1,92 +1,141 @@
-<!-- Working with Images -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Milen's Boutique Catalog</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Milen's Menu</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #fff8f0;
       margin: 0;
       padding: 0;
     }
+
     header {
-      background-color: #d36e70;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    .catalog {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 20px;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background-color: white;
+      border-bottom: 1px solid #ddd;
     }
-    .item {
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      margin: 15px;
-      width: 220px;
-      background-color: #ffffff;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+    header img.logo {
+      height: 60px;
     }
-    .item img {
-      width: 100%;
-      height: auto;
-      border-bottom: 1px solid #eee;
+
+    nav {
+      display: flex;
+      gap: 20px;
+      align-items: center;
     }
-    .item-info {
-      padding: 15px;
+
+    nav a {
+      text-decoration: none;
+      color: #000;
+      font-size: 14px;
+    }
+
+    .cta-buttons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .cta-buttons button {
+      background-color: #ffc107;
+      border: none;
+      padding: 10px 15px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 40px;
+      gap: 40px;
+      justify-items: center;
+      align-items: center;
+    }
+
+    .menu-item {
       text-align: center;
     }
-    .item-info h3 {
-      margin: 0 0 10px;
-      font-size: 18px;
+
+    .menu-item img {
+      height: 50px;
+      margin-bottom: 10px;
     }
-    .price {
-      color: #d36e70;
+
+    .bottom-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding-bottom: 40px;
+    }
+
+    .bottom-buttons button {
+      padding: 15px 25px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
       font-weight: bold;
+    }
+
+    .btn-red {
+      background-color: #d32f2f;
+      color: white;
+    }
+
+    .btn-white {
+      background-color: white;
+      border: 1px solid #ccc;
     }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Welcome to Milen's Boutique</h1>
-  <p>Trendy Fashion for Every Occasion</p>
+  <img src="https://1000logos.net/wp-content/uploads/2017/03/McDonalds-logo.png" alt="McDonald's Logo" class="logo" />
+  <nav>
+    <a href="#">Our Menu</a>
+    <a href="#">Know Our Food</a>
+    <a href="#">Deals & Our App</a>
+    <a href="#">MyMRewards</a>
+    <a href="#">Family Hub</a>
+    <a href="#">Find a Store</a>
+    <a href="#">Search</a>
+  </nav>
+  <div class="cta-buttons">
+    <button>Order Now</button>
+    <button>Contact Us</button>
+  </div>
 </header>
 
-<section class="catalog">
+<main>
+  <div class="menu-grid">
+    <div class="menu-item"><img src="https://img.icons8.com/emoji/48/breakfast.png"/><p>Breakfast</p></div>
+    <div class="menu-item"><img src="https://img.icons8.com/ios/50/salad.png"/><p>Chicken</p></div>
+    <div class="menu-item"><img src="https://img.icons8.com/emoji/48/hamburger-emoji.png"/><p>Beef</p></div>
 
-  <!-- Top -->
-  <div class="item">
-    <img src="https://via.placeholder.com/220x280?text=Floral+Top" alt="Floral Top">
-    <div class="item-info">
-      <h3>Floral Summer Top</h3>
-      <p class="price">R299.00</p>
-    </div>
+    <div class="menu-item"><img src="https://img.icons8.com/color/48/vegetarian-food-symbol.png"/><p>Vegetarian</p></div>
+    <div class="menu-item"><img src="https://img.icons8.com/emoji/48/green-salad.png"/><p>Salads</p></div>
+    <div class="menu-item"><img src="https://img.icons8.com/emoji/48/takeaway-coffee.png"/><p>McCafé®</p></div>
+
+    <div class="menu-item"><img src="https://img.icons8.com/emoji/48/cup-with-straw.png"/><p>Beverages</p></div>
+    <div class="menu-item"><img src="https://img.icons8.com/ios/50/ice-cream-sundae.png"/><p>Desserts & Shakes</p></div>
+    <div class="menu-item"><img src="https://img.icons8.com/emoji/48/hamburger-happy-meal.png"/><p>Happy Meal</p></div>
+
+    <div class="menu-item"><img src="https://img.icons8.com/emoji/48/french-fries.png"/><p>Extra Value Meals</p></div>
+    <div class="menu-item"><img src="https://img.icons8.com/emoji/48/french-fries.png"/><p>Sides</p></div>
+    <div class="menu-item"><img src="https://img.icons8.com/emoji/48/food-tray.png"/><p>Sharing</p></div>
   </div>
 
-  <!-- Bottom -->
-  <div class="item">
-    <img src="https://via.placeholder.com/220x280?text=Denim+Jeans" alt="Denim Jeans">
-    <div class="item-info">
-      <h3>Classic Denim Jeans</h3>
-      <p class="price">R499.00</p>
-    </div>
+  <div class="bottom-buttons">
+    <button class="btn-red">View Limited Offers</button>
+    <button class="btn-white">View Customer Favourites</button>
   </div>
-
-  <!-- Dress -->
-  <div class="item">
-    <img src="https://via.placeholder.com/220x280?text=Red+Dress" alt="Red Dress">
-    <div class="item-info">
-      <h3>Elegant Red Dress</h3>
-      <p class="price">R699.00</p>
-    </div>
-  </div>
-
-</section>
+</main>
 
 </body>
 </html>
