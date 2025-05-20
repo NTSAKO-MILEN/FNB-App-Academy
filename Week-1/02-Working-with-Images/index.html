@@ -1,1 +1,92 @@
 <!-- Working with Images -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Milen's Boutique Catalog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #d36e70;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .catalog {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .item {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin: 15px;
+      width: 220px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .item img {
+      width: 100%;
+      height: auto;
+      border-bottom: 1px solid #eee;
+    }
+    .item-info {
+      padding: 15px;
+      text-align: center;
+    }
+    .item-info h3 {
+      margin: 0 0 10px;
+      font-size: 18px;
+    }
+    .price {
+      color: #d36e70;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Milen's Boutique</h1>
+  <p>Trendy Fashion for Every Occasion</p>
+</header>
+
+<section class="catalog">
+
+  <!-- Top -->
+  <div class="item">
+    <img src="https://via.placeholder.com/220x280?text=Floral+Top" alt="Floral Top">
+    <div class="item-info">
+      <h3>Floral Summer Top</h3>
+      <p class="price">R299.00</p>
+    </div>
+  </div>
+
+  <!-- Bottom -->
+  <div class="item">
+    <img src="https://via.placeholder.com/220x280?text=Denim+Jeans" alt="Denim Jeans">
+    <div class="item-info">
+      <h3>Classic Denim Jeans</h3>
+      <p class="price">R499.00</p>
+    </div>
+  </div>
+
+  <!-- Dress -->
+  <div class="item">
+    <img src="https://via.placeholder.com/220x280?text=Red+Dress" alt="Red Dress">
+    <div class="item-info">
+      <h3>Elegant Red Dress</h3>
+      <p class="price">R699.00</p>
+    </div>
+  </div>
+
+</section>
+
+</body>
+</html>
