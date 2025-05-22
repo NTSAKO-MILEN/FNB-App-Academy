@@ -23,7 +23,7 @@ body{
      padding-top: 15px; 
 }
 
-/*============ TOP TABS===========*/
+/*============ TOP-TABS===========*/
 
      #tabs-top{
           position: fixed;
@@ -46,3 +46,9 @@ body{
           text-decoration : none;
           padding-top     : 12px;  
     }  
+
+    /*============ MAIN-HOME===========*/
+
+    #main-home{
+     margin-top: 120px;
+}
