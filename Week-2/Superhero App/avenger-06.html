@@ -1,27 +1,87 @@
 <!DOCTYPE html>
 <html>
-      <head> 
-           <link rel="stylesheet" href="style.css"> 
-       </head>
- 
-       <body> 
-          <h2>MILS</h2>
-          <div class="gallery"> 
-              <img src="images/avengers_06.jpg"> 
-          </div> 
-          <h4>Bio</h4> 
-          <p><b>Full Name:</b> Ntsako Milen</p> 
-          <p><b>Place Of Birth:</b> South Africa</p> 
-          <p><b>Alignment:</b> Good</p> 
-          <p><b>Gender:</b> female</p>
-          <p><b>Race:</b> Black</p> 
-          <br/>
-          <h4>Power Stats</h4>
-          <p><b>Intelligence:</b> 100%</p>
-          <p><b>Strength:</b> 69%</p>
-          <p><b>Speed:</b> 82%</p>
-          <p><b>Durability:</b> 100%</p>
-          <p><b>Power:</b> 890%</p>
-          <p><b>Combat:</b> 85%</p>
-      </body>
+<head> 
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        /* Elegant Girly Theme (No Pink) */
+        body {
+            background: linear-gradient(to right, #f1f0f6, #dfe4f2);
+            font-family: 'Helvetica Neue', sans-serif;
+            color: #2d2d2d;
+            padding: 40px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #6a5acd; /* Soft slate blue */
+            font-size: 36px;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: auto;
+            border: 3px solid #b5c4e0;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(90, 100, 180, 0.25);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 25px rgba(90, 100, 180, 0.35);
+        }
+
+        h4 {
+            font-size: 22px;
+            color: #4682b4; /* Steel blue */
+            margin-top: 30px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #87cefa; /* Light blue */
+            display: inline-block;
+        }
+
+        p {
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        b {
+            color: #5f9ea0; /* Cadet Blue */
+        }
+
+        br {
+            margin: 20px 0;
+            display: block;
+        }
+    </style>
+</head>
+
+<body> 
+    <h2>Mils</h2>
+    <div class="gallery"> 
+        <img src="images/avengers_06.jpg"> 
+    </div> 
+    <h4>Bio</h4> 
+    <p><b>Full Name:</b> Ntsako Milen</p> 
+    <p><b>Place Of Birth:</b> South Africa</p> 
+    <p><b>Alignment:</b> Good</p> 
+    <p><b>Gender:</b> female</p>
+    <p><b>Race:</b> Black</p> 
+    <br/>
+    <h4>Power Stats</h4>
+    <p><b>Intelligence:</b> 100%</p>
+    <p><b>Strength:</b> 78%</p>
+    <p><b>Speed:</b> 82%</p>
+    <p><b>Durability:</b> 100%</p>
+    <p><b>Power:</b> 890%</p>
+    <p><b>Combat:</b> 85%</p>
+</body>
 </html>

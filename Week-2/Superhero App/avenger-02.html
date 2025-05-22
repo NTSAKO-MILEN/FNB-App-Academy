@@ -1,27 +1,81 @@
 <!DOCTYPE html>
 <html>
-      <head> 
-           <link rel="stylesheet" href="style.css"> 
-       </head>
- 
-       <body> 
-          <h2>Iron Man</h2>
-          <div class="gallery"> 
-              <img src="images/avengers_02.jpg"> 
-          </div> 
-          <h4>Bio</h4> 
-          <p><b>Full Name:</b> Tony start</p> 
-          <p><b>Place Of Birth:</b> New York City</p> 
-          <p><b>Alignment:</b> Good</p> 
-          <p><b>Gender:</b> Male</p>
-          <p><b>Race:</b> Human</p> 
-          <br/>
-          <h4>Power Stats</h4>
-          <p><b>Intelligence:</b> 100%</p>
-          <p><b>Strength:</b> 85%</p>
-          <p><b>Speed:</b> 58%</p>
-          <p><b>Durability:</b> 85%</p>
-          <p><b>Power:</b> 100%</p>
-          <p><b>Combat:</b> 64%</p>
-      </body>
-</html>
+<head> 
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        /* Guyish Theme: Dark, Bold, Tech-Inspired */
+        body {
+            background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #eaeaea;
+            padding: 40px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #e63946;
+            font-size: 38px;
+            text-shadow: 2px 2px 5px #000;
+            margin-bottom: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .gallery img {
+            width: 320px;
+            height: auto;
+            border: 3px solid #444;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(230, 57, 70, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 25px rgba(230, 57, 70, 0.7);
+        }
+
+        h4 {
+            font-size: 22px;
+            color: #ffb703;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #ffb703;
+            display: inline-block;
+        }
+
+        p {
+            font-size: 17px;
+            line-height: 1.5;
+        }
+
+        b {
+            color: #00b4d8;
+        }
+
+        br {
+            margin: 20px 0;
+            display: block;
+        }
+    </style>
+</head>
+
+<body> 
+    <h2>Iron Man</h2>
+    <div class="gallery"> 
+        <img src="images/avengers_02.jpg"> 
+    </div> 
+    <h4>Bio</h4> 
+    <p><b>Full Name:</b> Tony start</p> 
+    <p><b>Place Of Birth:</b> New York City</p> 
+    <p><b>Alignment:</b> Good</p> 
+    <p><b>Gender:</b> Male</p>
+    <p><b>Race:</b> Human</p> 
+    <br/>
+    <h4>Power Stats</h4>
+    <p><b>Intelligence:</b> 100%</p>
+    <p><b>Stre
