@@ -1,27 +1,52 @@
 <!DOCTYPE html>
-<html>
-      <head> 
-           <link rel="stylesheet" href="style.css"> 
-       </head>
- 
-       <body> 
-          <h2>Thor</h2>
-          <div class="gallery"> 
-              <img src="images/avengers_01.jpg"> 
-          </div> 
-          <h4>Bio</h4> 
-          <p><b>Full Name:</b> Thor Odinson</p> 
-          <p><b>Place Of Birth:</b> Asgard</p> 
-          <p><b>Alignment:</b> Good</p> 
-          <p><b>Gender:</b> Male</p>
-          <p><b>Race:</b> Asgardian</p> 
-          <br/>
-          <h4>Power Stats</h4>
-          <p><b>Intelligence:</b> 69%</p>
-          <p><b>Strength:</b> 100%</p>
-          <p><b>Speed:</b> 92%</p>
-          <p><b>Durability:</b> 100%</p>
-          <p><b>Power:</b> 100%</p>
-          <p><b>Combat:</b> 85%</p>
-      </body>
-</html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thor Profile</title>
+  <style>
+    /* Base Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #1e1e1e, #2c2c2c);
+      color: #f0f0f0;
+      padding: 30px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 36px;
+      color: #ffcc00;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px #000;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .gallery img {
+      max-width: 300px;
+      border-radius: 10px;
+      border: 4px solid #444;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(255, 204, 0, 0.5);
+    }
+
+    h4 {
+      margin-top: 20px;
+      font-size: 22px;
+      color: #ffcc00;
+      border-bottom: 2px solid #
