@@ -95,7 +95,7 @@ body{
 
  a.info-box{
     text-decoration : none;
-    background: rgba(249, 248, 244, 0.8);
+    background: #fcfbf7cc;
     width           : 90%;
     height          : 90px;
     display         : block;
@@ -128,4 +128,26 @@ body{
     float      : right;
     margin-top : 25px;
     height     :40px; 
+}
+
+/* ============ INFO BOX FULL=========== */ 
+
+#info-box-full{
+    background-color : #fcf8f8cc ;
+    width   : 90%;
+    display : block;
+    margin  : auto;
+    margin-top : 12px;
+    padding    : 10px;
+}
+
+
+
+#info-box-full img{
+    width : 100%;
+}
+
+
+#info-box-full h3{
+    text-align : center;
 }
