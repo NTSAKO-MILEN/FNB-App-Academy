@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="header">
+      <img src="images/logo.png" alt="Zoo Logo" />
+    </div>
+
+    <div id="tabs-top">
+      <a href="#">ANIMALS</a>
+      <a href="#">MAP</a>
+      <a href="#">PLACES</a>
+    </div>
+
+    <div id="main">
+      <div id="content">
+        <div id="info-box-full">
+          <img src="images/giraffe-large.jpg" alt="Giraffe" />
+          <h3>GIRAFFE</h3>
+          <h1>🦒 Welcome to the Giraffe Exhibit!</h1>
+
+          <p>
+            The <strong>Giraffe</strong> is the world's tallest land animal, native to the savannas and open woodlands
+            of sub-Saharan Africa. Known for their long necks and legs, giraffes can grow up to 18 feet (5.5 meters) tall!
+            Their unique spotted coat patterns are as individual as human fingerprints.
+          </p>
+
+          <h2>💡 Fun Facts:</h2>
+          <ul class="facts">
+            <li>Giraffes' necks can be up to 6 feet long, and they can reach leaves in the tallest trees.</li>
+            <li>Despite their height, giraffes only sleep for 10-30 minutes a day!</li>
+            <li>Their tongues can be up to 18 inches long, helping them grab leaves and twigs from trees.</li>
+          </ul>
+
+          <p>Giraffes have a peaceful, gentle nature and are often seen grazing in herds across the African savanna.</p>
+
+          <strong><p>WHERE WILL YOU FIND THEM</p></strong>
+          <p>You'll find the giraffes in pen B12, near the savanna zone.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="tabs-bottom">
+      <a href="#">WEATHER</a>
+      <a href="#">FEEDBACK</a>
+    </div>
+  </body>
+</html>
