@@ -72,6 +72,35 @@ a.info-box {
 - Checked CSS syntax and curly brackets.
 - Verified property-value pairs are followed by colons and semicolons.
 
+✅ Lesson 11: Animal Page More Links
+
+Steps I followed:
+1. I added more `a.info-box` sections for different animals (GEMSBOK and GIRAFFE):
+
+```html
+<a class="info-box" href="#">
+  <img class="right" src="images/next-arrow.png"/>
+  <img src="images/gemsbok.png"/>
+  <h3>GEMSBOK</h3>
+  <p>Come and see the majestic gemsbok</p>
+</a>
+
+<a class="info-box" href="#">
+  <img class="right" src="images/next-arrow.png"/>
+  <img src="images/giraffe-tn.png"/>
+  <h3>GIRAFFE</h3>
+  <p>Our giraffe loves company</p>
+</a>
+```
+
+🛠️ Tips I kept in mind:
+- Used the exact same layout and structure for all cards.
+- Double-checked that each image path (like `images/giraffe-tn.png`) exists and is spelled correctly.
+- Ensured that all tags were properly opened and closed (e.g. `<a>`, `<div>`).
+
+
+⏳ We’re still not done. Another section is coming up!
+
 
 
 
