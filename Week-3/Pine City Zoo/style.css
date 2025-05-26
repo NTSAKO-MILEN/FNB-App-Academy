@@ -155,7 +155,7 @@ a.info-box {
   padding: 20px;
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0px 0px 8px rgba(217, 219, 222, 0.1);
+  box-shadow: 1ch 1cap 8px rgba(217, 219, 222, 0.1);
 }
 
 #info-box-full h3 {
@@ -167,3 +167,10 @@ a.info-box {
   width: 100%;
   height: auto;
   object
+
+  /* === CONTAINER === */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
