@@ -45,11 +45,13 @@ body {
   text-align: center;
   text-decoration: none;
   padding-top: 12px;
+  
 }
 
 /* === MAIN-HOME === */
 #main-home {
   margin-top: 120px;
+  margin-bottom: 120px ;
 }
 
 /* === BOTTOM TABS === */
@@ -60,7 +62,7 @@ body {
   z-index: 500;
   width: 100%;
   height: 40px;
-  background-color: forestgreen;
+  background-color: darkgreen;
 }
 
 #tabs-bottom a {
@@ -69,7 +71,7 @@ body {
   width: 50%;
   height: 35px;
   font-weight: 700;
-  color: white;
+  color: rgb(248, 244, 244);
   text-align: center;
   text-decoration: none;
   padding-top: 12px;
@@ -78,7 +80,7 @@ body {
 /* === MAIN SECTION === */
 #main {
   margin-top: 119px;
-  background: url('images/map-blur.png') center center no-repeat;
+  background: url('images/map-blur.png') repeat;
   background-size: cover;
   position: relative;
   display: flex;
@@ -226,4 +228,57 @@ textarea{
   font-weight : 600;
   margin : 12px 0;
   padding : 8px 0;
+}
+
+/* ✅ Full-screen blurred background */
+#background-blur {
+  background: url('images/zoo-bg.jpg') repeat;
+  background-size: cover;
+  filter: blur(5px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* Behind all other content */
+}
+
+#background-blur::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 100, 0, 0.3); /* green overlay */
+}
+
+/* ✅ Ensure map fills available space */
+#main-home {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  background: url('images/map-blur.png') repeat;
+background-size: cover;
+
+}
+
+#main-home img {
+  width: 100%;
+  height: auto;
+  max-height: calc(100vh - 120px); /* adjust depending on header/footer height */
+  object-fit: contain;
+}
+
+/* ✅ Container uses full screen height */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
