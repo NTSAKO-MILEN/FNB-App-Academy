@@ -282,3 +282,6 @@ body, html {
   flex-direction: column;
   height: 100%;
 }
+
+background-attachment: fixed;
+
