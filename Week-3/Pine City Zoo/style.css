@@ -175,3 +175,27 @@ a.info-box {
   max-width: 1000px;
   margin: 0 auto;
 }
+
+ /*  ==== WEATHER ====  */
+
+img.info-box-weather-icon{
+  height : 30px;
+  width  : 30px;
+  margin : 10px;
+  float  :left; 
+}
+
+h1.info-box-weather-icon{
+  font-size  : 65px;
+  font-weight: 200;
+  padding    : 0;
+  margin     : 0;
+}
+
+table{
+   width: 100%;
+}
+
+td{
+  border-top: 1px solid #131313;
+}
